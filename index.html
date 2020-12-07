@@ -1,7 +1,7 @@
 <html>
   <head>
-  <style>
-  html {
+    <style>
+      html {
   font-family: 'Lilita One', cursive;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -75,9 +75,14 @@ h1 {
   outline: none;
 }
 
-  </style>
+    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
+  </head>
+  
   <script>
-  var colorPicker = new iro.ColorPicker("#picker", {
+      var colorPicker = new iro.ColorPicker("#picker", {
   // Set the size of the color picker
   width: 320,
   // Set the initial color to pure red
@@ -101,11 +106,7 @@ function update() {
   var text = document.getElementById("colortext").value;
   document.getElementById("code").value = "<c" + hex + ">" + text + "</c>";
 };
-  </script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
-  </head>
+    </script>
   
   <h1>Brawl Stars Colored<br>Text Generator</h1>
   
